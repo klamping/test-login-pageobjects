@@ -1,0 +1,24 @@
+{
+  "name": "pageobjects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^5.15.4",
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^5.15.4",
+    "@wdio/mocha-framework": "^5.15.1",
+    "@wdio/spec-reporter": "^5.15.2",
+    "@wdio/sync": "^5.15.1",
+    "chromedriver": "^77.0.0",
+    "wdio-chromedriver-service": "^5.0.2"
+  }
+}

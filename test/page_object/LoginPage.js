@@ -1,0 +1,17 @@
+var Page = require('./page');
+class LoginPage extends Page {
+    get username() { return $('#username') }
+    get password() { return $('#password') }
+    get submitBtn() { return $('form button[type="submit"]') }
+    get flash() { return $('#flash') }
+    get headerLinks() { return $$('#header a') }
+
+    open() {
+        super.open('login')
+    }
+
+    submit() {
+        this.submitBtn.click()
+    }
+}
+module.exports = new LoginPage();
